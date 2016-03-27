@@ -1,0 +1,55 @@
+Todo for future
+
+It would be very useful to be able to limit the display based on framework version.
+
+Enable Export
+
+Todo for 1.0
+
+Update UI immediately when assembly is installed.
+
+Update UI immediately when assembly is uninstalled.
+
+Done
+
+* Open assembly location command
+
+* Create popup for assembly details
+
+* Use Apex SearchTextBox
+
+* Find a solid way to use the same commands for the context menu and the toolbar menu
+(done, use a veiwmodel defined as a static resource).
+
+* Create main Icon. Done.
+
+* Main menu and context menu should be rationalised.
+
+* The images between the context menu and toolbar can't be shared.
+
+* Sort out the image blurring on the toolbar buttons.
+
+* Open assembly file properties command.
+
+* Grey out images on the toolbar when the button is disabled.
+
+* Split the assembly into basic properties, advanced GAC properties, and assembly properties.
+  These are loaded from A- display name (basic), B- Fusion (advanced), C- File (version, resources, last modified etc).
+
+* Determine how advanced properties will be loaded.
+
+* Warning before uninstalling an assembly
+
+* Finalise the UI of the details view.
+
+* The loading screen should have some text and clear the items when loading.
+
+* Enable Install
+
+* Enable Uninstall
+
+* Add show details buttons to context menu and toolbar.
+
+* Add project home page buttons to the toolbar.
+
+* Add some fusion properties to the fusion details window.

@@ -1,0 +1,113 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GACManager", "GACManager\GACManager.csproj", "{6461FD80-DFE8-496E-ADA2-E0422D23EA99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GACManagerApi", "GACManagerApi\GACManagerApi.csproj", "{2909743E-72FF-48BF-A081-E61A73D2E6EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GACManager.Tests", "GACManager.Tests\GACManager.Tests.csproj", "{74BEF931-A615-41C3-BECB-56F3867DC0DA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2726865C-4B05-4FAE-B6EF-0F30C0B94222}"
+	ProjectSection(SolutionItems) = preProject
+		GACManager.vsmdi = GACManager.vsmdi
+		Local.testsettings = Local.testsettings
+		Todo.txt = Todo.txt
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestAssembly", "TestAssembly\TestAssembly.csproj", "{70407D41-98DD-4D2D-A67E-1FD4D4A30441}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "GACManagerSetup", "GACManagerSetup\GACManagerSetup.vdproj", "{396E3758-0E0A-4729-93B4-72AFDFB5DDE7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{5C05BB3D-D074-4060-8C12-E9D8CB624840}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs33
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = GACManager.Tests\\GACManager.Tests.csproj
+		SccProjectName1 = GACManager.Tests
+		SccLocalPath1 = GACManager.Tests
+		SccProjectUniqueName2 = GACManager\\GACManager.csproj
+		SccProjectName2 = GACManager
+		SccLocalPath2 = GACManager
+		SccProjectUniqueName3 = GACManagerApi\\GACManagerApi.csproj
+		SccProjectName3 = GACManagerApi
+		SccLocalPath3 = GACManagerApi
+		SccProjectUniqueName4 = TestAssembly\\TestAssembly.csproj
+		SccProjectName4 = TestAssembly
+		SccLocalPath4 = TestAssembly
+		SccProjectUniqueName5 = GACManagerSetup\\GACManagerSetup.vdproj
+		SccProjectName5 = GACManagerSetup
+		SccLocalPath5 = GACManagerSetup
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = GACManager.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6461FD80-DFE8-496E-ADA2-E0422D23EA99}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{6461FD80-DFE8-496E-ADA2-E0422D23EA99}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{6461FD80-DFE8-496E-ADA2-E0422D23EA99}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{6461FD80-DFE8-496E-ADA2-E0422D23EA99}.Debug|x86.ActiveCfg = Debug|x86
+		{6461FD80-DFE8-496E-ADA2-E0422D23EA99}.Debug|x86.Build.0 = Debug|x86
+		{6461FD80-DFE8-496E-ADA2-E0422D23EA99}.Release|Any CPU.ActiveCfg = Release|x86
+		{6461FD80-DFE8-496E-ADA2-E0422D23EA99}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{6461FD80-DFE8-496E-ADA2-E0422D23EA99}.Release|Mixed Platforms.Build.0 = Release|x86
+		{6461FD80-DFE8-496E-ADA2-E0422D23EA99}.Release|x86.ActiveCfg = Release|x86
+		{6461FD80-DFE8-496E-ADA2-E0422D23EA99}.Release|x86.Build.0 = Release|x86
+		{2909743E-72FF-48BF-A081-E61A73D2E6EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2909743E-72FF-48BF-A081-E61A73D2E6EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2909743E-72FF-48BF-A081-E61A73D2E6EC}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{2909743E-72FF-48BF-A081-E61A73D2E6EC}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{2909743E-72FF-48BF-A081-E61A73D2E6EC}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2909743E-72FF-48BF-A081-E61A73D2E6EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2909743E-72FF-48BF-A081-E61A73D2E6EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2909743E-72FF-48BF-A081-E61A73D2E6EC}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{2909743E-72FF-48BF-A081-E61A73D2E6EC}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{2909743E-72FF-48BF-A081-E61A73D2E6EC}.Release|x86.ActiveCfg = Release|Any CPU
+		{74BEF931-A615-41C3-BECB-56F3867DC0DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74BEF931-A615-41C3-BECB-56F3867DC0DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74BEF931-A615-41C3-BECB-56F3867DC0DA}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{74BEF931-A615-41C3-BECB-56F3867DC0DA}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{74BEF931-A615-41C3-BECB-56F3867DC0DA}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{74BEF931-A615-41C3-BECB-56F3867DC0DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74BEF931-A615-41C3-BECB-56F3867DC0DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74BEF931-A615-41C3-BECB-56F3867DC0DA}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{74BEF931-A615-41C3-BECB-56F3867DC0DA}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{74BEF931-A615-41C3-BECB-56F3867DC0DA}.Release|x86.ActiveCfg = Release|Any CPU
+		{70407D41-98DD-4D2D-A67E-1FD4D4A30441}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70407D41-98DD-4D2D-A67E-1FD4D4A30441}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70407D41-98DD-4D2D-A67E-1FD4D4A30441}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{70407D41-98DD-4D2D-A67E-1FD4D4A30441}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{70407D41-98DD-4D2D-A67E-1FD4D4A30441}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{70407D41-98DD-4D2D-A67E-1FD4D4A30441}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70407D41-98DD-4D2D-A67E-1FD4D4A30441}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70407D41-98DD-4D2D-A67E-1FD4D4A30441}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{70407D41-98DD-4D2D-A67E-1FD4D4A30441}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{70407D41-98DD-4D2D-A67E-1FD4D4A30441}.Release|x86.ActiveCfg = Release|Any CPU
+		{396E3758-0E0A-4729-93B4-72AFDFB5DDE7}.Debug|Any CPU.ActiveCfg = Debug
+		{396E3758-0E0A-4729-93B4-72AFDFB5DDE7}.Debug|Mixed Platforms.ActiveCfg = Debug
+		{396E3758-0E0A-4729-93B4-72AFDFB5DDE7}.Debug|x86.ActiveCfg = Debug
+		{396E3758-0E0A-4729-93B4-72AFDFB5DDE7}.Release|Any CPU.ActiveCfg = Release
+		{396E3758-0E0A-4729-93B4-72AFDFB5DDE7}.Release|Mixed Platforms.ActiveCfg = Release
+		{396E3758-0E0A-4729-93B4-72AFDFB5DDE7}.Release|x86.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
