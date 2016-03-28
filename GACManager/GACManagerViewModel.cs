@@ -366,11 +366,11 @@ namespace GACManager
                     Assemblies.Remove(assemly);
                 }
 
-                // Show the message box.
-                MessageBox.Show(string.Join("\n", messages), Resources.Title_Uninstall);
-
                 // Reload assemblies
                 if (shouldReload) RefreshAssembliesCommand.DoExecute();
+
+                // Show the message box.
+                MessageBox.Show(string.Join("\n", messages), Resources.Title_Uninstall);
             }
             catch (UnauthorizedAccessException)
             {
@@ -483,10 +483,10 @@ namespace GACManager
             try
             {
                 AssemblyCache.InstallAssembly(assemblyPath, null, AssemblyCommitFlags.Force);
-                
-                MessageBox.Show(Resources.Msg_InstallationCompleted_Success, Resources.Title_Install);
+
                 // Reload assemblies after proper installation
                 RefreshAssembliesCommand.DoExecute(null);
+                MessageBox.Show(Resources.Msg_InstallationCompleted_Success, Resources.Title_Install);
             }
             catch (AssemblyMustBeStronglyNamedException)
             {
