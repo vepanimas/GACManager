@@ -12,7 +12,7 @@ namespace GACManager
         /// <summary>
         /// The NotifyingProperty for the Identifier property.
         /// </summary>
-        private readonly NotifyingProperty IdentifierProperty =
+        private readonly NotifyingProperty _identifierProperty =
           new NotifyingProperty("Identifier", typeof(string), default(string));
 
         /// <summary>
@@ -21,15 +21,15 @@ namespace GACManager
         /// <value>The value of Identifier.</value>
         public string Identifier
         {
-            get { return (string)GetValue(IdentifierProperty); }
-            set { SetValue(IdentifierProperty, value); }
+            get { return (string)GetValue(_identifierProperty); }
+            set { SetValue(_identifierProperty, value); }
         }
 
         
         /// <summary>
         /// The NotifyingProperty for the Description property.
         /// </summary>
-        private readonly NotifyingProperty DescriptionProperty =
+        private readonly NotifyingProperty _descriptionProperty =
           new NotifyingProperty("Description", typeof(string), default(string));
 
         /// <summary>
@@ -38,8 +38,8 @@ namespace GACManager
         /// <value>The value of Description.</value>
         public string Description
         {
-            get { return (string)GetValue(DescriptionProperty); }
-            set { SetValue(DescriptionProperty, value); }
+            get { return (string)GetValue(_descriptionProperty); }
+            set { SetValue(_descriptionProperty, value); }
         }
     }
 }

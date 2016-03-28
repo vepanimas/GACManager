@@ -118,7 +118,67 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ProjectHomePageUrl" xml:space="preserve">
-    <value>http://gacmanager.codeplex.com</value>
+    <value>https://github.com/PonyMan/GACManager</value>
     <comment>URL for the project home page</comment>
+  </data>
+  <data name="Msg_InstallationCompleted_Success" xml:space="preserve">
+    <value>The assembly was installed succesfully!</value>
+  </data>
+  <data name="ErrorMsg_InstallationFailed_AssemblyIsNotStrongNamed" xml:space="preserve">
+    <value>Failed to install the assembly - it is not strongly named.</value>
+  </data>
+  <data name="ErrorMsg_InstallationFailed_UnauthorizedError" xml:space="preserve">
+    <value>To install assemblies you should run GAC Manager as administrator.</value>
+  </data>
+  <data name="ErrorMsg_InstallationFailed_GenericError" xml:space="preserve">
+    <value>Failed to install the assembly.</value>
+  </data>
+  <data name="Prompt_Installation_SelectAssembly" xml:space="preserve">
+    <value>Select Assembly to Install</value>
+  </data>
+  <data name="Title_Install" xml:space="preserve">
+    <value>Install</value>
+  </data>
+  <data name="Title_Uninstall" xml:space="preserve">
+    <value>Uninstall</value>
+  </data>
+  <data name="Prompt_Uninstall" xml:space="preserve">
+    <value>Are you sure you want to uninstall this assemblies?</value>
+  </data>
+  <data name="ErrorMsg_Uninstall_UnauthorizedError" xml:space="preserve">
+    <value>To remove assemblies from GAC you should run GAC Manager as administrator.</value>
+  </data>
+  <data name="ErrorMsg_Uninstall_InUse" xml:space="preserve">
+    <value>{0}: cannot uninstall this assembly - it is in use.</value>
+  </data>
+  <data name="ErrorMsg_Uninstall_AlreadyUninstalled" xml:space="preserve">
+    <value>{0}: cannot uninstall this assembly - it has already been uninstalled.</value>
+  </data>
+  <data name="ErrorMsg_Uninstall_Deleting" xml:space="preserve">
+    <value>{0}: cannot uninstall this assembly - it has has a delete pending.</value>
+  </data>
+  <data name="ErrorMsg_Uninstall_PartOfAnotherProduct" xml:space="preserve">
+    <value>{0}: cannot uninstall this assembly - it was installed as part of another product.</value>
+  </data>
+  <data name="ErrorMsg_Uninstall_NotFound" xml:space="preserve">
+    <value>{0}: cannot uninstall this assembly - cannot find the assembly.</value>
+  </data>
+  <data name="ErrorMsg_Uninstall_Unknown" xml:space="preserve">
+    <value>{0}: failed to uninstall assembly.</value>
+  </data>
+  <data name="Msg_Uninstall_Success" xml:space="preserve">
+    <value>{0}: the assembly was uninstalled successfully.</value>
+  </data>
+  <data name="Msg_RefreshAssemblies_Success" xml:space="preserve">
+    <value>Loaded {0} assemblies in {1} milliseconds</value>
+  </data>
+  <data name="Msg_RefreshAssemblies_Progress" xml:space="preserve">
+    <value>Loading Assemblies...</value>
+  </data>
+  <data name="Msg_GacUtilFound" xml:space="preserve">
+    <value>GacUtil is installed</value>
+  </data>
+  <data name="Msg_GacUtilNotFound" xml:space="preserve">
+    <value>Cannot find GacUtil</value>
   </data>
 </root>

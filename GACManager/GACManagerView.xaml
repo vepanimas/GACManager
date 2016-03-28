@@ -98,9 +98,9 @@
                     </Button>
 
                     <Button 
-                        ToolTip="Uninstall the selected assembly"
-                        Command="{Binding UninstallAssemblyCommand}"
-                        CommandParameter="{Binding SelectedAssembly}">
+                        ToolTip="Uninstall selected assemblies"
+                        Command="{Binding UninstallAssembliesCommand}"
+                        CommandParameter="{Binding SelectedItems, ElementName=AssemliesList}">
                         <Image Source="{StaticResource ImageSourceUninstallAssembly}" Style="{StaticResource StyleIcon}" />
                     </Button>
                     
@@ -137,8 +137,8 @@
             
             <!-- The main list view of assemblies. -->
                 <apexControls:ApexGrid Columns="*">
-                    <ListView ItemsSource="{Binding AssembliesCollectionView}" SelectedItem="{Binding SelectedAssembly}"
-                              MouseDoubleClick="ListView_MouseDoubleClick">
+                    <ListView x:Name="AssemliesList" ItemsSource="{Binding AssembliesCollectionView}" SelectedItem="{Binding SelectedAssembly}"
+                              SelectionMode="Extended" MouseDoubleClick="ListView_MouseDoubleClick" SelectionChanged="AssemliesList_SelectionChanged">
 
                         <i:Interaction.Behaviors>
                             <apexBehaviours:ListViewItemContextMenuBehaviour x:Name="parent">
@@ -162,7 +162,7 @@
                                         </MenuItem>
                                         <MenuItem 
                                             Header="Uninstall"
-                                            Command="{Binding UninstallAssemblyCommand, Source={StaticResource MainViewModel}}" 
+                                            Command="{Binding UninstallAssembliesCommand, Source={StaticResource MainViewModel}}" 
                                             CommandParameter="{Binding}">
                                             <MenuItem.Icon>
                                                 <Image Source="{StaticResource ImageSourceUninstallAssembly}" Style="{StaticResource StyleIcon}" />

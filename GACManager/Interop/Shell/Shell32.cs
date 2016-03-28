@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Runtime.InteropServices;
 
 namespace GACManager.Interop.Shell
@@ -35,12 +32,12 @@ namespace GACManager.Interop.Shell
         private const int SW_SHOW = 5;
         private const uint SEE_MASK_INVOKEIDLIST = 12;
 
-        public static bool ShowFileProperties(string Filename)
+        public static bool ShowFileProperties(string filename)
         {
             var info = new SHELLEXECUTEINFO();
             info.cbSize = Marshal.SizeOf(info);
             info.lpVerb = "properties";
-            info.lpFile = Filename;
+            info.lpFile = filename;
             info.nShow = SW_SHOW;
             info.fMask = SEE_MASK_INVOKEIDLIST;
             return ShellExecuteEx(ref info);

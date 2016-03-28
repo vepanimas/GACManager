@@ -2,7 +2,6 @@
 using System.Diagnostics;
 using Apex.MVVM;
 using GACManagerApi;
-using GACManagerApi.Fusion;
 
 namespace GACManager.Models
 {

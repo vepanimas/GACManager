@@ -12,5 +12,22 @@ namespace GACManager
     /// </summary>
     public partial class App : Application
     {
+        public App()
+        {
+            SetDebugProps();
+        }
+
+        private void SetDebugProps()
+        {
+#if DEBUG
+            // Show all unhadled exceptions
+            Current.DispatcherUnhandledException +=
+                (o, args) =>
+                {
+                    MessageBox.Show(args.Exception.ToString());
+                    args.Handled = true;
+                };
+#endif
+        }
     }
 }
