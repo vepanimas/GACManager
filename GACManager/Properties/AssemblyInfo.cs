@@ -10,9 +10,9 @@ using System.Windows;
 [assembly: AssemblyTitle("GACManager")]
 [assembly: AssemblyDescription("Utility to manage the Global Assembly Cache")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Dave Kerr")]
+[assembly: AssemblyCompany("PonyMan")]
 [assembly: AssemblyProduct("GACManager")]
-[assembly: AssemblyCopyright("Copyright ©  2012 Dave Kerr")]
+[assembly: AssemblyCopyright("Copyright ©  2016 PonyMan")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
