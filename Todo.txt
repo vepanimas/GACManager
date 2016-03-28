@@ -1,16 +1,18 @@
-Todo for future
+Todo for 1.0.1
 
-It would be very useful to be able to limit the display based on framework version.
+* Enable Export.
 
-Enable Export
+* Add filter by .NET framework version.
 
-Todo for 1.0
+* Add sorting in the ListView.
 
-Update UI immediately when assembly is installed.
-
-Update UI immediately when assembly is uninstalled.
+* Application level exception handling in a separate window with detailed info.
 
 Done
+
+* Update UI immediately when assembly is installed.
+
+* Update UI immediately when assembly is uninstalled.
 
 * Open assembly location command
 
