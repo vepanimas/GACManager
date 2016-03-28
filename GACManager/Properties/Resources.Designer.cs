@@ -223,7 +223,7 @@ namespace GACManager.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Are you sure you want to uninstall this assemblies?.
+        ///   Looks up a localized string similar to Are you sure you want to uninstall selected assemblies?.
         /// </summary>
         internal static string Prompt_Uninstall {
             get {

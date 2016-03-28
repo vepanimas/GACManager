@@ -143,7 +143,7 @@
     <value>Uninstall</value>
   </data>
   <data name="Prompt_Uninstall" xml:space="preserve">
-    <value>Are you sure you want to uninstall this assemblies?</value>
+    <value>Are you sure you want to uninstall selected assemblies?</value>
   </data>
   <data name="ErrorMsg_Uninstall_UnauthorizedError" xml:space="preserve">
     <value>To remove assemblies from GAC you should run GAC Manager as administrator.</value>
