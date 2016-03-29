@@ -1,4 +1,4 @@
-Todo for 1.0.1
+Todo for 1.0.2
 
 * Enable Export.
 
