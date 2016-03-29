@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ProjectHomePageUrl" xml:space="preserve">
-    <value>https://github.com/PonyMan/GACManager</value>
+    <value>https://github.com/vepanimas/GACManager</value>
     <comment>URL for the project home page</comment>
   </data>
   <data name="Msg_InstallationCompleted_Success" xml:space="preserve">

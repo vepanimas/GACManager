@@ -205,7 +205,7 @@ namespace GACManager.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to https://github.com/PonyMan/GACManager.
+        ///   Looks up a localized string similar to https://github.com/vepanimas/GACManager.
         /// </summary>
         internal static string ProjectHomePageUrl {
             get {
